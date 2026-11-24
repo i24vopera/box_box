@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+    --color-bg: #18181B;
+    --color-surface: #27272A;
+    --color-border: #3F3F46;
+    --color-text: #D4D4D8;
+    --color-text-muted: #A1A1AA;
+    --color-accent: #c00a0a;
+    --icon-filter: brightness(0) invert(1);
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+@theme {
+    --font-roboto: "Roboto", sans-serif;
+    --font-condensed: "Roboto Condensed", sans-serif;
+    --font-mono: "Roboto Mono", monospace;
+    --color-bg: var(--color-bg);
+    --color-surface: var(--color-surface);
+    --color-border: var(--color-border);
+    --color-text: var(--color-text);
+    --color-text-muted: var(--color-text-muted);
+    --color-accent: var(--color-accent);
+}
